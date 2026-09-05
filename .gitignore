@@ -32,3 +32,4 @@ backups/
 data/
 *.db
 *.sqlite*
+.github/workflows/
