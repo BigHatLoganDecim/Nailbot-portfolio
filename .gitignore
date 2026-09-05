@@ -1,0 +1,34 @@
+# Секреты и локальная конфигурация
+.env
+.env.local
+*.env
+
+# Видео аватарки (ставятся через avatar.py, в репо не нужны)
+*.mp4
+*.webm
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Локальные кэши Claude
+AI_CACHE/
+.claude/settings.local.json
+
+# Логи
+*.log
+
+# Local backups and generated data
+backups/
+
+data/
+*.db
+*.sqlite*

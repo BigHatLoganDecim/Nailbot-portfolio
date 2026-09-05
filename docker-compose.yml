@@ -1,0 +1,23 @@
+# Local SoT for P0. Prod still Render until P1/P2 compose (bot/worker).
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: nailbot
+      POSTGRES_PASSWORD: nailbot
+      POSTGRES_DB: nailbot
+    ports:
+      - "5432:5432"
+    volumes:
+      - nailbot_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U nailbot -d nailbot"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+volumes:
+  nailbot_pg:

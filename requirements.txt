@@ -1,0 +1,16 @@
+# Минимальный набор под Render free (512MB / 0.1 CPU)
+pyTelegramBotAPI>=4.14,<5
+Flask>=3.0,<4
+openai>=1.40,<2
+redis>=5.0,<6
+python-dotenv>=1.0
+google-api-python-client>=2.100
+google-auth>=2.30
+dateparser>=1.2
+APScheduler>=3.10,<4
+waitress>=3.0,<4
+sqlalchemy>=2.0,<3
+alembic>=1.13,<2
+psycopg[binary]>=3.1,<4
+# sentry-sdk — опционально (не ставим на free, экономия RAM)
+# feedparser — удалён вместе с новостями
