@@ -2,6 +2,8 @@
 
 Telegram-бот записи: клиент бронирует визит в чате, мастер ведёт день, график и прайс в том же боте.
 
+**Живое демо:** [https://t.me/Atlas_Nailbot](https://t.me/Atlas_Nailbot)
+
 Демо-контент — студия **Luna Studio** (`knowledge.md`). Ключи и персональные данные боевого салона в репозиторий не входят.
 
 [English](#english)
@@ -98,6 +100,8 @@ MIT, [LICENSE](LICENSE).
 ## English
 
 Telegram booking bot: clients book in chat; the specialist runs the day, schedule and price list in the same bot.
+
+**Live demo:** [https://t.me/Atlas_Nailbot](https://t.me/Atlas_Nailbot)
 
 Built for a live studio (~70 visits/month) as a replacement for a paid Telegram Mini App. This snapshot uses the demo brand **Luna Studio** — no production secrets or personal data.
 
